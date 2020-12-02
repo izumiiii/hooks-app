@@ -1,3 +1,4 @@
+// useEffectとは、「関数の実行タイミングをReactのレンダリング後まで遅らせるhook」
 import React, { Component, useEffect, useState } from 'react'
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
