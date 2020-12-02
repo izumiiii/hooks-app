@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import EffectFunc from './components/effectFunc';
+
 
 function App() {
   return (
@@ -17,6 +20,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <h2>Counter</h2>
+        <Counter></Counter>
+        <h2>EffectFunc</h2>
+        <EffectFunc></EffectFunc>
       </header>
     </div>
   );
